@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#17132b">
+<meta name="description" content="Hoop Fury '88: baloncesto arcade pixel art para jugar en tu navegador.">
+<title>HOOP FURY '88</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="cabinet">
+  <header><span class="star">★</span> HOOP FURY <b>'88</b> <span class="star">★</span></header>
+  <div class="screen"><canvas id="game" width="320" height="240" aria-label="Juego de baloncesto Hoop Fury '88"></canvas></div>
+  <p class="hint">MOVER: ← → / A D · SALTAR: ↑ / W · MANTENER ESPACIO: CARGAR · SOLTAR: TIRAR</p>
+  <div class="controls" aria-label="Controles táctiles">
+    <div class="dpad"><button type="button" data-key="left" aria-label="Mover izquierda">◀</button><button type="button" data-key="right" aria-label="Mover derecha">▶</button></div>
+    <div class="actions"><button type="button" data-key="jump" aria-label="Saltar">SALTO</button><button type="button" data-key="shoot" aria-label="Mantener para cargar tiro y soltar">TIRAR</button></div>
+  </div>
+  <div class="footer"><button id="sound" type="button" aria-label="Activar o silenciar sonido">♫ SONIDO: SÍ</button><span>HECHO PARA JUGAR. SIN DESCARGAS.</span></div>
+</main>
+<script src="script.js" defer></script>
+</body>
+</html>
